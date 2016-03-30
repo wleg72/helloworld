@@ -5,4 +5,5 @@
 	<bean id="helloWorld" class="com.importnew.HelloWorld">
 		<property name="message" value="Hello World!" />
 	</bean>
+	
 </beans>
