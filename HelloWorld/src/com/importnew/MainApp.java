@@ -10,5 +10,6 @@ public class MainApp {
 		ctx = new ClassPathXmlApplicationContext("Beans.xml");
 		HelloWorld obj = (HelloWorld) ctx.getBean("helloWorld");
 		obj.printMessage();
+		obj.printMessage();
 	}
 }
